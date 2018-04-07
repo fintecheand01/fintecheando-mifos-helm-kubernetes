@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: stable
+  repository: fintecheando/com.mx.fintecheando.mifosx.18.03.01
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
@@ -20,7 +20,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - chart-example.local
+    - mifos.local
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
