@@ -1,0 +1,6 @@
+dependencies:
+- name: fintecheando/com.mx.fintecheando.activemq.mifosx.18.03.01
+  version: latest
+- name: fintecheando/com.mx.fintecheando.mariadb.mifosx.18.03.01
+  version: latest
+  
