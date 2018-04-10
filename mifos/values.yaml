@@ -1,19 +1,16 @@
-# Default values for java-app.
+# Default values for mifos
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
   repository: fintecheando/com.mx.fintecheando.mifosx.18.03.01
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 service:
-  name: tomcat
+  name: mifos
   type: NodePort
   externalPort: 8443
   internalPort: 8443
-
-
-
 resources:
   limits:
     cpu: 100m
