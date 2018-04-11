@@ -21,12 +21,14 @@ spec:
         livenessProbe:
           httpGet:
             path: /community-app
-            port: https
+            port: 8443                                                                 
+            scheme: HTTPS
           initialDelaySeconds: 120
           timeoutSeconds: 5
         readinessProbe:
           httpGet:
             path: /community-app
-            port: https
+            port: 8443                                                                 
+            scheme: HTTPS
           initialDelaySeconds: 30
           timeoutSeconds: 1
