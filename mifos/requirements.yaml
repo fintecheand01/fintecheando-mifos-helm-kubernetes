@@ -2,4 +2,4 @@ dependencies:
 - name: mariadb
   version: 0.5.9
   repository: https://kubernetes-charts.storage.googleapis.com/
-  alias: db-server
+  alias: mifos-db-server
